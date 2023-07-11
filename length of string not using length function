@@ -1,0 +1,22 @@
+package testNG;
+
+import java.util.Iterator;
+import java.util.Scanner;
+
+public class PracticeForJava {
+
+	public static void main(String[] args) {
+		String d = "gokulraj";
+
+		char[] len = d.toCharArray();
+		int length = 0;
+		for (char c : len) {
+			length++;
+
+		}
+
+		System.out.println(length);
+
+	}
+
+}
