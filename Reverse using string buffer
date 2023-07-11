@@ -1,0 +1,17 @@
+package week4.day2;
+
+import java.util.Scanner;
+
+public class Practice {
+
+	public static void main(String[] args) {
+		String a="lukog";
+		
+		StringBuffer buffer = new StringBuffer();
+		buffer.append(a);
+		
+		System.out.println(buffer.reverse());
+		
+	
+
+}}
