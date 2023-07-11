@@ -1,0 +1,30 @@
+package week4.day2;
+
+import java.util.Scanner;
+
+public class Practice {
+
+	public static void main(String[] args) {
+		
+		int givennumber = 45678;
+		
+		int revnum=0;
+		
+		System.out.println("enter the number :");
+		
+		Scanner scanner = new Scanner(System.in); 
+		givennumber= scanner.nextInt();
+		
+		
+		while (givennumber !=0) {
+			
+			revnum =revnum*10;
+			revnum = revnum+givennumber%10;
+			givennumber = givennumber/10;
+			
+		}
+		System.out.println(revnum);
+		
+	
+
+}}
