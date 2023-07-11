@@ -1,0 +1,31 @@
+package testNG;
+
+import java.util.Scanner;
+
+public class PracticeForJava {
+
+	public static void main(String[] args) {
+	Scanner scan = new Scanner(System.in);
+	
+	System.out.println("enter the number of line:");
+	
+	int nextInt = scan.nextInt();
+	
+	int row,column;
+	
+	for ( row = 0; row < nextInt; row++) {
+		for (column = 0; column <= row; column++) {
+			System.out.print("^");
+			
+		}
+		
+		System.out.println();
+		
+	}
+	
+	
+	
+	
+	}
+
+}
